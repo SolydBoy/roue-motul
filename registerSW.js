@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/roue-motul/sw.js', { scope: '/roue-motul/' })})}
